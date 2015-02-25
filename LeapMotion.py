@@ -137,8 +137,8 @@ class SampleListener(Leap.Listener):
                 for b in range(4):
                     bone = finger.bone(b)
                     if b==1:
-                        tempLastX = self.paintX
-                        tempLastY = self.paintY
+                        tempListX = self.paintX
+                        tempListY = self.paintY
                         tempListX = []
                         tempListY = []
                         while len(tempListX) < 7:
